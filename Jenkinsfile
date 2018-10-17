@@ -13,4 +13,9 @@ pipeline {
             }
         }
     }
+    post{
+	always{
+		echo "master build successfully!!"
+	}
+    }
 }
