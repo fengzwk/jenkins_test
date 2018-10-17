@@ -13,4 +13,9 @@ pipeline {
             }
         }
     }
+    post{
+	always{
+		echo 'develop build successfully!!'
+	}
+    }	
 }
